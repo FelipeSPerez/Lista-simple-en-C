@@ -31,6 +31,9 @@ int main(void) {
                 break;
         }
     } while(opcion != 4);
+
+    printf("Cerrando el programa, adiós");
+
     if(killListaSimple(lista)) printf("La memoria de la lista se libero correctamente.\n");
     if(killMenu(menuListaSimple)) printf("La memoria del menu se libero correctamente.\n");
     return 0;
