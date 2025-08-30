@@ -34,6 +34,7 @@ int main(void) {
 
     printf("Cerrando el programa, adiós");
 
+    /* Es necesario limpiar la memoria dinámica */
     if(killListaSimple(lista)) printf("La memoria de la lista se libero correctamente.\n");
     if(killMenu(menuListaSimple)) printf("La memoria del menu se libero correctamente.\n");
 
